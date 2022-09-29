@@ -1,1 +1,226 @@
-body {font-family: "Roboto", sans-serif;font-size: 1.4em;min-height: 100vh;}header {overflow: hidden;margin: auto;padding: 1.5em 0;display: flex;justify-content: space-between;max-width: 85%;position: sticky;top: 0;z-index: 999;background-color: white;opacity: 90%;}header h1 {font-family: Gloria Hallelujah;}nav li {float: left;}nav li :hover {text-decoration: underline;}nav ul {float: right;}nav a {padding: 8px;}.body-container {margin: auto;line-height: 1.5;max-width:80%;}.body-container p {padding-bottom: .5em;}.intro {max-width: 20em;}.pic-left {float: left;padding-top: 1.5em;padding-right: 2.5em;display: inline-flex;}.whatdo {min-height: 500px;max-width: 1300px;padding: 1.5em;padding-left:0%;}.logo:hover {transform: scale(1.1);transition: all .2s ease-in-out;}a {cursor: pointer;}h2 {color: black;font-size: 2.25em;font-weight: 700;padding: 0;}h3 {font-size: 1.5em;font-weight: 400;}p {padding-top: 5px;}.external-links li {display: inline-flex;}.body-container a {text-decoration: underline;font-weight: 600;color: black;}.contact {display: inline;}iframe {display: block;margin: auto;}.icons ul {display: flex;justify-content:space-between;padding: 1em;}footer {text-align: center;margin-top: auto;color:ivory;background-color:rgb(18, 29, 29);bottom: 0;margin: 0%;padding: 1rem;width: 100%;}.madewith p {font-size: .8em;}footer a {color: deepskyblue;}.copyright {font-size: .8rem;padding-top: .5rem;}.love {display: inline-block;position: relative;top: .2em;color: #50C878;-webkit-transform: scale(.9);-moz-transform: scale(.9);transform: scale(.9);-webkit-animation: love .5s infinite linear alternate-reverse;-moz-animation: love .5s infinite linear alternate-reverse;animation: love .5s infinite linear alternate-reverse;}@-webkit-keyframes love {to {-webkit-transform: scale(1.1);}}@-moz-keyframes love {to {-moz-transform: scale(1.1);}}@keyframes love {to {transform: scale(1.1);}}*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {all: unset;display: revert;}*, *::before, *::after {box-sizing: border-box;}ol, ul {list-style: none;}img {max-width: 100%;}table {border-collapse: collapse;}textarea {white-space: revert;}.bloogle {color: #4285F4;}.roogle {color: #DB4437;}.groogle {color: #0F9D58;}.yoogle {color: #F4B400;}.raider-red {color: #CC0000;}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4em;
+    min-height: 100vh;
+}
+
+header {
+    overflow: hidden;
+    margin: auto;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    opacity: 90%;
+}
+
+header h1 {
+    font-family: Gloria Hallelujah;
+}
+
+nav li {
+    float: left;
+}
+
+nav li :hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    float: right;
+}
+
+nav a {
+
+    padding: 8px;
+}
+
+.body-container {
+    margin: auto;
+    line-height: 1.5;
+    max-width:80%;
+}
+
+.body-container p {
+    padding-bottom: .5em;
+}
+
+.intro {
+    max-width: 20em;
+}
+
+.pic-left {
+    float: left;
+    padding-top: 1.5em;
+    padding-right: 2.5em;
+    display: inline-flex;
+}
+
+.whatdo {
+    min-height: 500px;
+    max-width: 1300px;
+    padding: 1.5em;
+    padding-left:0%;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+a {
+    cursor: pointer;
+}
+
+h2 {
+    color: black;
+    font-size: 2.25em;
+    font-weight: 700;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p {
+    padding-top: 5px;
+}
+
+.external-links li {
+    display: inline-flex;
+}
+
+.body-container a {
+    text-decoration: underline;
+    font-weight: 600;
+    color: black;
+}
+
+.contact {
+    display: inline;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.icons {
+ max-width: 40%;
+}
+
+.icons ul {
+    display: flex;
+    justify-content:space-between;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    color:ivory;    
+    background-color:rgb(18, 29, 29);
+    bottom: 0;
+    margin: 0%;
+    padding: 1rem;
+    width: 100%;
+}
+
+.madewith p {
+    font-size: .8em;
+}
+
+footer a {
+    color: deepskyblue;
+}
+
+.copyright {
+    font-size: .8rem;
+    padding-top: .5rem;
+}
+
+.love {
+    display: inline-block;
+    position: relative;
+    top: .2em;
+    color: #50C878;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-animation: love .5s infinite linear alternate-reverse;
+    -moz-animation: love .5s infinite linear alternate-reverse;
+    animation: love .5s infinite linear alternate-reverse;
+  }
+  @-webkit-keyframes love {
+    to {-webkit-transform: scale(1.1);}
+  }
+  @-moz-keyframes love {
+    to {-moz-transform: scale(1.1);}
+  }
+  @keyframes love {
+    to {transform: scale(1.1);}
+  }
+
+  /*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+
+.bloogle {
+    color: #4285F4;
+}
+
+.roogle {
+    color: #DB4437;
+}
+
+.groogle {
+    color: #0F9D58;
+}
+
+.yoogle {
+    color: #F4B400;
+}
+
+.raider-red {
+    color: #CC0000;
+}

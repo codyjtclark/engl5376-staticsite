@@ -112,7 +112,8 @@ iframe {
 }
 
 .icons {
- max-width: 40%;
+ max-width: 580px;
+ padding-top: 2em;
 }
 
 .icons ul {

@@ -3,7 +3,7 @@ Playground for hand-coded site for Online Publishing
 
 ## 9/29/2022 - Initial Commit
 
-Based on the given template, the starting site looked something like ![starting point](/img/start.png).
+Based on the given template, the starting site looked something like ![starting point](/img/start.png)
 
 I started by deleting all of the CSS and applying "the new CSS reset" to remove all default formatting.
 
@@ -11,7 +11,7 @@ I then added header and nav sections to contain the Logo/home button and the res
 
 I deleted the entire contact section and replaced it with an H2 and introductory section (stolen from my Twitter bio). I didn't like the text going the full length of the page so I set a much smaller `max-width`
 
-I then started a paragraph with a more in depth  about me section covering my work and ensemble history. I then turned one of the given H2s into an H3 to introduce the paragraphs.
+I then started a paragraph with a more in depth about me section covering my work and ensemble history. I then turned one of the given H2s into an H3 to introduce the paragraphs.
 
 I found some svg icons and added them as links to my LinkedIn, my work GitHub page, and my musician site. For some fun interactivity, I added a grow on hover animation.
 
@@ -21,13 +21,13 @@ The site was looking a little boring so I found a cute animation of a person wri
 
 With the always visble header, I decided to add a footer. I modified a [codepen](https://codepen.io/mfritsch) for a heart animation and added the mid-10s trend of made with <3 as well as a copyright with a link to my main playground site.
 
-With my initial commit, the site now looks something like ![initial commit](/img/initial-commit.gif).
+With my initial commit, the site now looks something like ![initial commit](/img/initial-commit.gif)
 
 ### The tech stack
 
 I'm using Visual Studio Code as my IDE. Autocomplete and live staging are nice features. Plus it's free.
 
-I'm using GitHub because it's familiar and it's integration with Netlify.
+I'm using GitHub because it's familiar and of its integration with Netlify.
 
 Netlify gives free staged hosting for this site. The current staged version of this site will always be available at https://engl5376-staticsite.netlify.app/. Having it staged also lets me test it on my actual mobile devices instead of just using the Chrome webdev tools that I would have to do if I were only using local files. An added benefit is that each pull request I open will have its owndeploy preview. For example, [my first pull request](https://github.com/codyjtclark/engl5376-staticsite/pull/1). Admittedly, this PR changed nothing but the human readability of the CSS, but as I make more design and content changes, I'll have an automatic snapshots with a dedicated URL for every change.
 
